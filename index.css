@@ -1,0 +1,30 @@
+body{
+	background-image: url(static/404.png);
+	height: 350px;
+}
+.container{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-content{
+	padding-top: 65px;
+}
+.titulo, .content{
+	font-family: "Roboto Condensed", sans-serif;
+	color: white;
+	opacity: 1 !important;
+}
+.titulo{
+	margin: 30px;
+	letter-spacing: 24px;
+	font-size: 48px;
+	text-align: center;
+}
+.content{
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
